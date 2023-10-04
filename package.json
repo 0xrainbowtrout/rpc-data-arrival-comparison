@@ -1,0 +1,23 @@
+{
+  "name": "rpc-comparison",
+  "version": "0.1.0",
+  "author": "Rainbow Trout <0xrainbowtrout@proton.me>",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "/dist/**/*"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "npx tsc",
+    "production": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.6",
+    "abitype": "^0.9.6",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "viem": "^1.5.2"
+  }
+}
